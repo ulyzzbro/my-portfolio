@@ -1,0 +1,551 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ulysses Pelias">
+  <title>Ulysses Pelias | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hidden controls for CSS-only interactions -->
+  <input type="checkbox" id="theme-toggle" class="hidden-toggle">
+  <input type="checkbox" id="menu-checkbox" class="hidden-toggle">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAVIGATION -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+
+      <a href="#home" class="wordmark">
+        UP<span>.</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+
+        <!-- Dark mode button -->
+        <label for="theme-toggle"
+               class="icon-button theme-button"
+               title="Toggle dark mode">
+
+          <svg class="moon-icon" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round">
+            <path d="M20.9 13.1A9 9 0 0 1 10.9 3.1 9 9 0 1 0 20.9 13.1Z"/>
+          </svg>
+
+          <svg class="sun-icon" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/>
+          </svg>
+        </label>
+
+        <!-- Mobile menu button -->
+        <label for="menu-checkbox"
+               class="icon-button menu-button"
+               title="Toggle menu">
+          <svg viewBox="0 0 24 24"
+               fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+        </label>
+
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <span class="eyebrow">
+            <span class="eyebrow-line"></span>
+            WELCOME TO MY PORTFOLIO
+          </span>
+
+          <h1>
+            Hello, I'm<br>
+            <span>Ulysses Pelias.</span>
+          </h1>
+
+          <p class="hero-role">
+            BS Information Technology Student
+          </p>
+
+          <p class="hero-description">
+            An aspiring IT professional passionate about
+            programming, web development, and creating
+            practical digital solutions.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button button-primary">
+              View My Projects
+            </a>
+
+            <a href="#contact" class="button button-outline">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="hero-footnote">
+            <span class="status-indicator"></span>
+            Learning, building, and growing every day
+          </div>
+        </div>
+
+        <!-- Profile pictures -->
+        <div class="hero-visual">
+          <div class="portrait-frame">
+
+            <img src="profile-light.jpg"
+                 alt="Ulysses Pelias"
+                 class="portrait-photo profile-light">
+
+            <img src="profile-dark.jpg"
+                 alt="Ulysses Pelias"
+                 class="portrait-photo profile-dark">
+
+          </div>
+
+          <span class="portrait-corner">
+            01 / ABOUT ME
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-index">01 / ABOUT</span>
+          <h2>About Me<span class="accent-dot">.</span></h2>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-content">
+            <p class="about-lead">
+              I'm a 2nd-year Bachelor of Science in
+              Information Technology student at the
+              University of Camarines Norte with a passion
+              for technology, programming, and web development.
+            </p>
+
+            <p>
+              I enjoy exploring new technologies, developing
+              applications, and finding creative solutions
+              to real-world problems. Throughout my academic
+              journey, I've gained experience in programming,
+              system development, and user interface design
+              through projects and hands-on activities.
+              I also learn from the mistakes I make.
+            </p>
+
+            <p>
+              I'm continuously improving my skills while
+              learning how to create applications that are
+              not only functional but also user-friendly
+              and useful.
+            </p>
+
+            <p>
+              Beyond coding, I value creativity, teamwork,
+              and continuous learning. I believe every project
+              and mistake is an opportunity to gain experience,
+              overcome challenges, and grow as a future
+              IT professional.
+            </p>
+
+            <p>
+              My goal is to become a skilled IT professional
+              who can contribute innovative and practical
+              solutions through technology.
+            </p>
+          </div>
+
+          <aside class="info-panel">
+            <div class="info-panel-header">
+              QUICK FACTS
+            </div>
+
+            <dl>
+              <div>
+                <dt>EDUCATION</dt>
+                <dd>BS Information Technology</dd>
+              </div>
+
+              <div>
+                <dt>YEAR LEVEL</dt>
+                <dd>2nd Year</dd>
+              </div>
+
+              <div>
+                <dt>UNIVERSITY</dt>
+                <dd>University of Camarines Norte</dd>
+              </div>
+
+              <div>
+                <dt>INTERESTS</dt>
+                <dd>Programming, Web Development, UI/UX Design</dd>
+              </div>
+            </dl>
+
+            <div class="info-panel-footer">
+              ALWAYS OPEN TO LEARNING
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-index">02 / EXPERTISE</span>
+          <h2>My Skills<span class="accent-dot">.</span></h2>
+          <p>Technologies and tools I'm learning and working with.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">{ }</span>
+              <span class="skill-number">01</span>
+            </div>
+            <h3>Java</h3>
+            <p>
+              Programming fundamentals, object-oriented
+              programming, and desktop application development.
+            </p>
+            <span class="skill-category">PROGRAMMING</span>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">>/<</span>
+              <span class="skill-number">02</span>
+            </div>
+            <h3>HTML</h3>
+            <p>
+              Creating structured, semantic, and accessible
+              web content.
+            </p>
+            <span class="skill-category">WEB DEVELOPMENT</span>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">#</span>
+              <span class="skill-number">03</span>
+            </div>
+            <h3>CSS</h3>
+            <p>
+              Designing responsive layouts, visual interfaces,
+              and interactive styles.
+            </p>
+            <span class="skill-category">WEB DESIGN</span>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">▣</span>
+              <span class="skill-number">04</span>
+            </div>
+            <h3>Android Studio</h3>
+            <p>
+              Building and designing Android applications
+              through academic projects.
+            </p>
+            <span class="skill-category">APP DEVELOPMENT</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-index">03 / SELECTED WORK</span>
+          <h2>Featured Projects<span class="accent-dot">.</span></h2>
+          <p>
+            Academic projects that reflect my learning journey
+            and development experience.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Kalinisan -->
+          <article class="project-card">
+            <div class="project-art art-kalinisan">
+              <span class="art-topline">COMMUNITY / CLEANLINESS</span>
+
+              <div class="art-phone">
+                <div class="phone-notch"></div>
+                <span class="phone-heading">Kalinisan.</span>
+
+                <div class="phone-card">
+                  <span class="phone-circle">✳</span>
+                  <span>
+                    Cleaner communities<br>
+                    <small>Start with us.</small>
+                  </span>
+                </div>
+
+                <div class="phone-lines">
+                  <i></i><i></i><i></i>
+                </div>
+              </div>
+
+              <span class="art-counter">01 — 03</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span>APPLICATION DEVELOPMENT</span>
+                <span class="status-badge">IN DEVELOPMENT</span>
+              </div>
+
+              <h3>Kalinisan App</h3>
+              <p>
+                A community cleanliness application designed
+                to help residents report waste-related problems,
+                access waste segregation information, and stay
+                informed about community clean-up activities.
+              </p>
+
+              <div class="tags">
+                <span>Android Studio</span>
+                <span>Kotlin</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Laundry -->
+          <article class="project-card">
+            <div class="project-art art-laundry">
+              <span class="art-topline">DESKTOP / MANAGEMENT</span>
+
+              <div class="art-desktop">
+                <div class="desktop-bar">
+                  <i></i><i></i><i></i>
+                  <span>NCB Laundry Shop</span>
+                </div>
+
+                <div class="desktop-layout">
+                  <div class="desktop-side">
+                    <i></i><i></i><i></i><i></i>
+                  </div>
+
+                  <div class="desktop-main">
+                    <span>Overview</span>
+
+                    <div class="desktop-stat-row">
+                      <i></i><i></i>
+                    </div>
+
+                    <div class="desktop-chart">
+                      <b></b><b></b><b></b>
+                      <b></b><b></b><b></b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <span class="art-counter">02 — 03</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span>DESKTOP APPLICATION</span>
+                <span class="status-badge">COMPLETED</span>
+              </div>
+
+              <h3>NCB Laundry Shop Management System</h3>
+              <p>
+                An offline Java desktop application designed
+                to simplify laundry shop operations through
+                customer management, weight-based pricing,
+                order tracking, transaction records, and sales reports.
+              </p>
+
+              <div class="tags">
+                <span>Java</span>
+                <span>File Handling</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Mafia -->
+          <article class="project-card">
+            <div class="project-art art-mafia">
+              <span class="art-topline">GAME / DATA STRUCTURES</span>
+
+              <div class="art-game">
+                <span class="game-eyebrow">
+                  A SOCIAL DEDUCTION GAME
+                </span>
+
+                <strong>MAFIA<span>.</span></strong>
+
+                <div class="game-roles">
+                  <span>MAFIA</span>
+                  <span>DOCTOR</span>
+                  <span>DETECTIVE</span>
+                </div>
+              </div>
+
+              <span class="art-counter">03 — 03</span>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span>JAVA CONSOLE GAME</span>
+                <span class="status-badge">COMPLETED</span>
+              </div>
+
+              <h3>Mafia Game</h3>
+              <p>
+                A text-based multiplayer social deduction game
+                developed in Java, featuring Mafia, Doctor,
+                Detective, and Villager roles while demonstrating
+                data structures and algorithms.
+              </p>
+
+              <div class="tags">
+                <span>Java</span>
+                <span>Data Structures & Algorithms</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+
+        <div>
+          <span class="section-index">04 / CONTACT</span>
+
+          <h2>
+            Let's Connect<span class="accent-dot">.</span>
+          </h2>
+
+          <p class="contact-intro">
+            I'm always interested in learning,
+            collaborating, and exploring new opportunities.
+          </p>
+
+          <p>
+            Have a project idea, question, or opportunity
+            to collaborate? Feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-links">
+
+          <a class="contact-item"
+             href="mailto:ulyzzbro1@gmail.com">
+
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor"
+                   stroke-width="1.8"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                <path d="m3 7 9 6 9-6"/>
+              </svg>
+            </span>
+
+            <span class="contact-details">
+              <span class="contact-label">EMAIL</span>
+              <span class="contact-value">
+                ulyzzbro1@gmail.com
+              </span>
+            </span>
+
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <a class="contact-item facebook-link"
+             href="https://www.facebook.com/"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Visit my Facebook profile">
+
+            <span class="contact-icon facebook-icon">
+              <svg viewBox="0 0 24 24"
+                   fill="currentColor"
+                   aria-hidden="true">
+                <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.49-3.9 3.78-3.9 1.1 0 2.25.2 2.25.2v2.47H15.2c-1.25 0-1.64.78-1.64 1.58V12h2.79l-.45 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/>
+              </svg>
+            </span>
+
+            <span class="contact-details">
+              <span class="contact-label">FACEBOOK</span>
+              <span class="contact-value">
+                Visit My Facebook Profile
+              </span>
+            </span>
+
+            <span class="contact-arrow">↗</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+        <a class="wordmark" href="#home">
+          UP<span>.</span>
+        </a>
+      </div>
+      <p>© 2026 Ulysses Pelias.</p>
+
+      <a class="back-top" href="#home" title="Back to top">
+        Back to top ↑
+      </a>
+
+    </div>
+  </footer>
+
+</body>
+</html>
